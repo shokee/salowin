@@ -1,0 +1,42 @@
+http://localhost:8080/grogod/WebService/Vendor/Web_api.php
+http://grogod.com/WebService/Vendor/Web_api.php
+
+1.Sign In
+p(method=Signin,usr_name,password)<usr_name-username,email,mobile>
+
+2.Vendor Products
+ (method=YourProducts,id)
+
+3.Select Measurement
+ (method=SelectMeasureMent,id,product_id)
+
+ 4.Add Price Variations
+  (method=AddVariations,id,product_id,price_variation_id,mrpprice,saleprice)
+
+  5.Delete Price Variations
+  (method=DeleteVariations,id,price_variation_id)
+
+  6.Change Status
+    (method=ChangeStaus,id,product_id,status<0,1>,)
+  7.Your Orders
+   (method=YourOrders,id)
+
+  8.Order Status Change
+   (method=OrdersTatus,id,order_id,status)
+
+  9.Order Returns
+   (method=OrdersTatus,id)
+
+  10.Get Loacations
+  (method=GetAllLoc,id)
+
+  11.Price Details
+  (method=ProductDetails,id,product_id)
+
+  12.Shop_details
+  (method=Shop_details,id)
+
+  13.Update Shop
+
+  14.Dashboard
+  (method=Dashboard,id)

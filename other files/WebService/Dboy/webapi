@@ -1,0 +1,27 @@
+1.Sign In 
+p(method=Signin,usr_name,password)<usr_name-username,email,mobile>
+2.Forget Password
+(method=ForgetPassword,usr_name<usr_name-username,email,mobile number>)
+3.Verify Forget OTP
+(method=verifyForgetOTP,id,otp,password)
+4.Change Password
+(method=ChangePwd,password,passwordnew)
+5.Profile
+(method=Profile,id)
+6.Update Profile
+(method=UpdateProfile,id,name,email,num,alt_num,country_id,state_id,city_id,img)
+7.Order History
+(method=OrderHisory,id)
+ 8.Check Online Status
+ (method=OnlineChecker,id,status)
+ 9.Delivery Boy  Accepts Process 
+  (method=DeliverBoyAccept,id,order_id,Status,shoplat,shoplng)
+10.Order Ongoing
+ (method=OrderOngoing,id)
+
+11.Order Delivered
+ (method=Delivered,id,order_id)
+
+ 13.Picke Up Delivery
+ 11.Order Pick
+ (method=Picked,id,order_id)

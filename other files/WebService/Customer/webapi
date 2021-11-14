@@ -1,0 +1,90 @@
+http://shubhaparinaya.com/dainikbazar/WebService/Customer/Web_api.php?
+1.//Banner Image
+p(method=GetSilders,id,pin_id)
+2.//Ads Images
+p(method=GetAdsImg)
+3.//Latest Products
+
+4.Register(method=Signup)
+p(name,email,num,password)
+
+5.Sign In (method=Signin)
+p(usr_name,password)<usr_name-username,email,mobile>
+
+6.Get Profile(method=Profile)
+p(user_id)
+
+7.Update Profile(method=ProfileUpdate)
+p(name,email,num,img,id)
+
+8.Change Password(method=ChangePwd)
+p(password,passwordnew)
+
+9.My Order(method=MyOrder)
+p(id)
+
+10.City(method=getCity)
+p(id)
+
+11.Pincode(method=Pincode)
+p(id,city_id)
+
+12.All Address(method=getAddress)
+p(id)
+
+13.Add Address(method=addAddres)
+p(id,fname,lname,city_id,pin_id,email,num,address)
+
+11.Update Address(method=AddressUpdate)
+p(address_id,fname,lname,city_id,pin_id,email,num,address)
+
+12.Home Api
+(method=HoMeApi,id,pin_id)
+
+13.Category
+(method=Category,id)
+
+14.Brands
+(method=Brands,id)
+
+15.Wallet
+(method=WalletAmnt,id)
+
+16.Category Wise Shop
+(method=CateWiseShop,id,category_id,pin_id)
+
+17.SubCategory Wise Shop
+(method=SubCateWiseShop,id,subcategory_id,pin_id)
+
+18.SubCategory Wise Shop
+(method=SubCateWiseShop2,id,subcategory_id2,pin_id)
+
+19.Shop Products
+(method=ShopofProduct,id,shop_id)
+
+20.Product Single Page
+(method=productSingle,id,product_id,shop_id)
+
+21.Shipping Charge
+(method=ShippingChr,id)
+
+22.Check Out Used Wallet
+(method=PaidtWalletAmnt,id)
+
+23.Coupon Code
+(method=GetCouponCode,id,c_code,cart_price)
+
+24.Order
+(method=OrderProcess,id,shop_id,adresss_id,shipChar,shiptype,payment_type<online,cod>,wallet_paid<optional>,product_id<comma separator send multiple id>,qty<comma separator send multiple qty>,price_variation_id<comma separator send multiple id>,coupon_code,code_amnt)
+
+25.Product Wise Shop
+(method=GetProductWiseShop,id,product_id,pin_id)
+
+26.Forget Password
+(method=ForgetPassword,usr_name<usr_name-username,email,mobile number>)
+
+27.Verify Forget OTP
+(method=verifyForgetOTP,id,otp,password)
+
+28.Cancel Order
+(method=CancelOrder,id,Order_id)
